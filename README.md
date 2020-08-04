@@ -1,3 +1,24 @@
+Numerous changes must be made to fork in order to get sample working in Angular 9.07
+-  "enableIvy": false, in tsconfig.json
+-  app.module.ts : imports NgxEchartsModule only, do not include  forRoot
+- in package.json, dependencies: 
+
+```
+    "rxjs": "~6.5.4",
+    "tslib": "^1.10.0",
+```
+
+- if using "@angular/core": "~9.1.7", need to downgrade in package.json or charts will be 'null'
+
+```
+dependencies:
+    "echarts": "^4.2.1",
+    "ngx-echarts": "^4.2.2",
+```
+
+
+==========
+
 # Ngx-Echarts Starter Project
 
 A starter project for [ngx-echarts](https://github.com/xieziyu/ngx-echarts)
