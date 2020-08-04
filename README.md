@@ -37,7 +37,8 @@ WARNING in $Homedir/ngx-echarts-starter/node_modules/echarts/index.js depends on
 For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
 
 
-====================
+Original Readme is below
+=========================
 
 # Ngx-Echarts Starter Project
 
