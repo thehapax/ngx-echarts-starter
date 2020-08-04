@@ -8,7 +8,6 @@ Here are my notes to get the starter working:
 Numerous changes must be made to fork in order to get sample working in Angular 9.07. 
 
 -  No angular 10 version available yet. 
--  See reference guide: https://www.freakyjolly.com/angular-e-charts-using-ngx-echarts-tutorial/
 -  "enableIvy": false, in tsconfig.json
 -  app.module.ts : imports NgxEchartsModule only, do not include  forRoot
 - in package.json, dependencies: 
@@ -69,3 +68,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+-  Also see reference guide: https://www.freakyjolly.com/angular-e-charts-using-ngx-echarts-tutorial/
