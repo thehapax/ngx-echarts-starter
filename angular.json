@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies" : ["echarts", "echarts/theme/macarons.js", "echarts/extension/dataTool"],
             "outputPath": "dist/ngx-echarts-starter",
             "index": "src/index.html",
             "main": "src/main.ts",

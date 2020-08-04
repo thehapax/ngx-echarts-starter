@@ -2,12 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
-import { NgxEchartsModule } from 'ngx-echarts';
+import { NgxEchartsModule} from 'ngx-echarts';
 
 import { AppComponent } from './app.component';
 
 import * as echarts from 'echarts';
 import 'echarts/theme/macarons.js';
+//import { ProviderAst } from '@angular/compiler';
 
 @NgModule({
   declarations: [
@@ -15,10 +16,10 @@ import 'echarts/theme/macarons.js';
   ],
   imports: [
     BrowserModule,
-    NgxEchartsModule.forRoot({ echarts }),
-    HttpClientModule
+    NgxEchartsModule,  //.forRoot({ echarts }),
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
