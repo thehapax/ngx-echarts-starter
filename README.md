@@ -17,7 +17,7 @@ Numerous changes must be made to fork in order to get sample working in Angular 
     "tslib": "^1.10.0",
 ```
 
-- if using "@angular/core": "~9.1.7", need to downgrade in package.json or charts will be 'null'
+- if using "@angular/core": "~9.1.7", for now, ngx-echarts: 5.0.0 is broken, need to downgrade in package.json or charts will be 'null', hopefully the developers will fix it soon. 
 
 
 ```
