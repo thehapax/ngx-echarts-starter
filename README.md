@@ -1,4 +1,13 @@
+## Notes from 3 AUG 2020 
+
+It appears that the starter does not work immediately out of the box. 
+From reviewing the open issues on ngx-echarts it appears many unresolved issues. 
+
+Here are my notes to get the starter working:
+
 Numerous changes must be made to fork in order to get sample working in Angular 9.07. 
+
+-  No angular 10 version available yet. 
 -  See reference guide: https://www.freakyjolly.com/angular-e-charts-using-ngx-echarts-tutorial/
 -  "enableIvy": false, in tsconfig.json
 -  app.module.ts : imports NgxEchartsModule only, do not include  forRoot
@@ -11,16 +20,16 @@ Numerous changes must be made to fork in order to get sample working in Angular 
 
 - if using "@angular/core": "~9.1.7", need to downgrade in package.json or charts will be 'null'
 
+
 ```
 dependencies:
     "echarts": "^4.2.1",
     "ngx-echarts": "^4.2.2",
 ```
 
-====================
+- This repository deployed with production build on https://ngx-echarts-starter-a0adf4.netlify.app/
 
-
-On `ng build --prod` have a few warnings: 
+On `ng build --prod` we have a few warnings: 
 
 WARNING in $Homedir/ngx-echarts-starter/node_modules/echarts/index.js depends on 'zrender/lib/vml/vml'. CommonJS or AMD dependencies can cause optimization bailouts.
 For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
