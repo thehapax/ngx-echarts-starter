@@ -30,11 +30,13 @@ dependencies:
 
 On `ng build --prod` we have a few warnings: 
 
+```
 WARNING in $Homedir/ngx-echarts-starter/node_modules/echarts/index.js depends on 'zrender/lib/vml/vml'. CommonJS or AMD dependencies can cause optimization bailouts.
 For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
 
 WARNING in $Homedir/ngx-echarts-starter/node_modules/echarts/index.js depends on 'zrender/lib/svg/svg'. CommonJS or AMD dependencies can cause optimization bailouts.
 For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+```
 
 
 Original Readme is below
