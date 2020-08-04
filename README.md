@@ -1,4 +1,5 @@
-Numerous changes must be made to fork in order to get sample working in Angular 9.07
+Numerous changes must be made to fork in order to get sample working in Angular 9.07. 
+-  See reference guide: https://www.freakyjolly.com/angular-e-charts-using-ngx-echarts-tutorial/
 -  "enableIvy": false, in tsconfig.json
 -  app.module.ts : imports NgxEchartsModule only, do not include  forRoot
 - in package.json, dependencies: 
