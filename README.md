@@ -7,7 +7,7 @@ Here are my notes to get the starter working:
 
 Numerous changes must be made to fork in order to get sample working in Angular 9.07. 
 
--  No angular 10 version available yet. 
+-  angular 10 version not really stable yet.(https://github.com/xieziyu/ngx-echarts/issues/250#issuecomment-665516904) 
 -  "enableIvy": false, in tsconfig.json (https://github.com/xieziyu/ngx-echarts/issues/217#issue-542377145)
 -  app.module.ts : imports NgxEchartsModule only, do not include forRoot (https://github.com/xieziyu/ngx-echarts/issues/241#issuecomment-651244001)
 - in package.json, add dependencies: 
