@@ -10,7 +10,7 @@ Numerous changes must be made to fork in order to get sample working in Angular 
 -  No angular 10 version available yet. 
 -  "enableIvy": false, in tsconfig.json (https://github.com/xieziyu/ngx-echarts/issues/217#issue-542377145)
 -  app.module.ts : imports NgxEchartsModule only, do not include forRoot (https://github.com/xieziyu/ngx-echarts/issues/241#issuecomment-651244001)
-- in package.json, dependencies: 
+- in package.json, add dependencies: 
 
 ```
     "rxjs": "~6.5.4",
