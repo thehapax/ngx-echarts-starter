@@ -8,8 +8,8 @@ Here are my notes to get the starter working:
 Numerous changes must be made to fork in order to get sample working in Angular 9.07. 
 
 -  No angular 10 version available yet. 
--  "enableIvy": false, in tsconfig.json
--  app.module.ts : imports NgxEchartsModule only, do not include  forRoot
+-  "enableIvy": false, in tsconfig.json (https://github.com/xieziyu/ngx-echarts/issues/217#issue-542377145)
+-  app.module.ts : imports NgxEchartsModule only, do not include forRoot (https://github.com/xieziyu/ngx-echarts/issues/241#issuecomment-651244001)
 - in package.json, dependencies: 
 
 ```
@@ -17,7 +17,7 @@ Numerous changes must be made to fork in order to get sample working in Angular 
     "tslib": "^1.10.0",
 ```
 
-- if using "@angular/core": "~9.1.7", for now, ngx-echarts: 5.0.0 is broken, need to downgrade in package.json or charts will be 'null', hopefully the developers will fix it soon. 
+- if using "@angular/core": "~9.1.7", for now, ngx-echarts: 5.0.0 is broken, need to downgrade in package.json or charts will be 'null', hopefully the developers will fix it soon. (https://github.com/xieziyu/ngx-echarts/issues/241#issuecomment-648116169)
 
 
 ```
